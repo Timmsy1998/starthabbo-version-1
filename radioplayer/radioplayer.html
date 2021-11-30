@@ -1,0 +1,105 @@
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA7_GaYGfYG09Okw7D_L4hMBRTKCr-O3TCBLVG2xkUQLV355ypZBRNZry_GCoNVuImaqW0QGV2ZwlGcg">
+</script>
+
+
+ <script type="text/javascript">
+
+      google.load("prototype", "1.6.1.0");
+      google.load("scriptaculous", "1.8.3");
+      google.load("swfobject", "2.2");
+
+    </script>
+
+ <script type="text/javascript" src="../includes/player.js"></script>
+
+ <style type="text/css">
+
+                  body { 
+                     margin-top: 0;
+					 
+                }
+				a.background{
+				background: url('../images/radio/player/radiobg.png');
+				width: 193px;
+				height: 31px;
+				display: block;
+				}
+
+
+                  a.play {
+                        background: url('../images/radio/player/play.png'); 
+                        width: 11px; 
+                        height: 18px; 
+                        margin: 0 2px; 
+                        display: block; 
+                        float: left; 
+                }
+     
+                a.pause { 
+                        background: url('../images/radio/player/pause.png'); 
+                        width: 11px; 
+                        height: 18px; 
+                        margin: 0 10px; 
+                        display: block; 
+                        float: left; 
+                }
+      
+                div.slider { 
+                        background: url('../images/radio/player/slider.png') center no-repeat; 
+                        width: 148px; 
+                        height: 6px; 
+                        margin: 6px 5px; 
+                        position: relative; 
+                        float: left; 
+                }
+               
+                div.slider div.handle 
+                       { 
+                        background: url('../images/radio/player/volume_slider.png'); 
+                        width: 12px; 
+                        height: 12px;  
+                        margin: -3px 0px; 
+                        
+                        position: absolute; 
+                }
+				
+				div.play_container{
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 31px;
+	height: 30px;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+div.pause_container{
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 31px;
+	height: 30px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 2px;
+}
+
+div.player_container{
+	background-color: rgba(0, 0, 0, 0.1);
+	width: 168px;
+	height: 30px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 2px;
+}
+
+
+ 	</style> 
+
+ <div id="radioswf"></div>
+
+<div id="radioplayer"></div>
+
+     <a id="play" class="play" href="#" rel="noAJAX" onClick="player.sendEvent( 'play', 'true' );"></a>
+     <a id="pause" class="pause" href="#" rel="noAJAX" onClick="player.sendEvent( 'play', 'false' );"></a>
+     <div id="volume_slider" class="slider">
+     <div class="handle"></div>
+		</div>
+   

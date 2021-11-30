@@ -1,0 +1,2 @@
+<script language="javascript" type="text/javascript" src="http://ic.starthabbo.com:2199/system/streaminfo.js"></script>
+<img id="cc_strinfo_trackimageurl_starthabbo" class="cc_streaminfo" style="width: 100px; height:100px; border: 1px solid #000" />
